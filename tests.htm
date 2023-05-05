@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<!-- 
+*****************************************************************************
+Title: Index Page
+Use: To allow users to fill out and submit the contact form.
+Author: Edward Pablo de Sa Sauerbrunn
+School/Term: Southern Illinois University, Spring 2023
+Developed: Feb 6, 2023 
+Tested: Feb 6, 2023; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">  
+        <meta name='description' content='Bicycle Shop'>
+        <meta name='keywords'content='Bike, Bicycle, Ride'>
+        <meta name='author' content='Edward Pablo de Sa Sauerbrunn'>
+        <meta name='viewport'content=''>
+        <title>DSS Bike Shop</title>
+	  <link rel="stylesheet" href="index.css">
+	  <link rel='stylesheet' href='slicknav.css'>
+	  
+	  
+	  <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+	  <script src='jquery.slicknav.min.js'></script>
+	  <script type='text/javascript'>
+		$(document).ready(function(){
+	  		$('#nav_menu').slicknav({prependTo:'#mobile_menu'});
+		});
+	  </script>
+	<link rel="shortcut icon" sizes="180x180" href="bicycle.jpg">
+
+
+</head>
+
+<body>
+	<div id='header'>
+	<h1>Gattaca Genetics&copy; </h1>
+	<h2>The genes you know!</h2>
+	
+	<nav id='mobile_menu'></nav>
+	<nav id='nav_menu'>
+		
+	   <ul>
+		<li><a href='index.htm'>Home</a></li>
+		<li><a href='tests.htm'>Tests Included</a></li>
+		<li><a href='t2d.htm'>Type 2 Diabetes</a></li>
+		<li><a href='ancestry.htm'>Ancestry</a></li>
+		<li><a href='cardio.htm'>Hypertrophic Cardiomyopathy</a></li>
+		<li><a href='contact.htm'>Buy Test</a></li>
+	   </ul>
+
+	</nav>
+	
+
+	<p>LIST OF TESTS AVAILABLE</p>
+	<p></p>
+	</div>
+
+	<article>
+		
+	<!--List of Bicycles and Helmets for rent-->
+	
+	<ul id='list'>
+		
+		<img id='image1'src='t2d.jpg'>
+		<li>TYPE 2 DIABETES</li>
+		
+		<br><br><br>
+
+		<img id='image2'  src='cardio.jpg'>
+		<li>Cardiovascular Diseases</li>
+		
+		<br><br><br>
+
+		<img id='image3'  src='cancer.jpg'>
+		<li>Cancer</li>
+		
+		<br><br><br>
+
+		<img id='image4'  src='alcoholism.jpg'>
+		<li>Alcoholism</li>
+		
+		<br><br><br>
+		
+		<img id='image5'  src='ra.jpg'>
+		<li>Rheumatoid Arthritis</li>
+		
+		<br><br><br>
+
+		<img id='image5'  src='otosclerosis.jpg'>
+		<li>Otosclerosis</li>
+		
+		<br><br><br>
+	 
+	</ul>
+		</article>
+
+	<br><br><br>
+	<footer>
+		<a href='www.GG.com'>Gattaca Genetics</a>
+		<address>
+		29350 Agriculture Drive
+		618-549-5948
+		Carbondale, IL 
+		</address>
+	</footer>
+	
+
+</body>
+</html>
