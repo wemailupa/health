@@ -133,7 +133,7 @@ article {
 	margin-right:0px;
 
 }
-
+/*Specifics of Sound*/
 #sound{
 	display: flex;
 	justify-content: center;
@@ -177,7 +177,9 @@ a:link {
 	
 }
 
-.video1{
+/*video style for later usage*/
+.video1 {
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -195,7 +197,7 @@ a:hover {
 	text-align: center;
 
 }
-
+/*caption for pictures style*/
 figcaption {
 
 	text-align: center;
@@ -232,6 +234,7 @@ figcaption {
 	background-size: cover;
 
 }
+/*overlay and hover styles may be used later*/
 /*
 .overlay {
 	background-image: url('helmet1.jfif');
@@ -336,7 +339,12 @@ figure:hover .overlay{
 	background-image: url('type2.jpg');
 	
 }
+/*used to cent some items but didn't panout*/
+.center{
+	text-align: center;
+}
 
+/*mobile and slicknav menu*/
 #mobile_menu {
 	display: block;
 }
@@ -344,9 +352,9 @@ figure:hover .overlay{
 .slicknav_menu {
 	background-color: #facd8a !important;
 }
-
+/*table style*/
 table{
-	
+	text-align: center;
 	border: 1px solid black;
 	border-collapse: no-collapse;
 }
@@ -373,7 +381,7 @@ fieldset {
 	padding-top: .5em;
 	font-size: 90%;
 }
-
+/*legend label buttons styles*/
 legend, label{
 	color: #931420;
 	font-weight: bold;
@@ -409,6 +417,10 @@ input:required{
 
 #button input {
 	width: 10em;
+}
+
+#buttons{
+	width:90%;
 }
 
 
@@ -498,7 +510,7 @@ input:required{
 		}
 
 	#buttons{
-		width: 150%;
+		width: 90%;
 	}
 
 }

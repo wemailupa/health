@@ -29,10 +29,10 @@ Tested: Feb 9, 2023; Passed on Firefox and Chrome browsers.
 	  		$('#nav_menu').slicknav({prependTo:'#mobile_menu'});
 		});
 	  </script>
-	<link rel="shortcut icon" sizes="180x180" href="bicycle.jpg">
+	<link rel="shortcut icon" sizes="180x180" href="dna.png">
 	
 </head>
-	
+	<!--SLICKNAV MENU-->
 	<nav id='mobile_menu'></nav>
 	<nav id='nav_menu'>
 		
@@ -51,24 +51,24 @@ Tested: Feb 9, 2023; Passed on Firefox and Chrome browsers.
 
 <body>
 <br>
-
-<center>
+<!--List of Tests Available-->
+<div class="center">
 	<h1>Type 2 Diabetes</h1>
 	<h2>Learn about this disease!</h2>
-</center>
+</div>
 
 <!--
 <video class='video1' src="bikevideo.mp4" autoplay controls width='480' height='270'> </video>
 -->
 
 <figure>
-	<img id="image10"  width="580px" height="750px"/>
-	<figcaption>Sample Results Type 2 Diabetes</figcaption>
+	<div class="center"><img id="image10"  width="580px" height="750px"/></div>
+	<figcaption>Sample Results Type 2 Diabetes</figcaption>>
 </figure>
 
 
 
-<center><h1>Overview</h1></center>
+<div class="center"><h1>Overview</h1></div>
 
 Type 2 diabetes is a condition that happens because of a problem in the way the body regulates and uses sugar as a fuel.
 
@@ -89,7 +89,7 @@ diabetes in younger people. There's no cure for type 2 diabetes. Losing weight, 
 If diet and exercise aren't enough to control blood sugar, diabetes medications or insulin therapy may be recommended.
 
 
-<center><h1>Symptoms</h1></center>
+<div class="center"><h1>Symptoms</h1></div>
 
 Symptoms of type 2 diabetes often develop slowly. In fact, you can be living with type 2 diabetes for years and not know it.
 When symptoms are present, they may include:
@@ -107,11 +107,11 @@ When symptoms are present, they may include:
 	<li>Areas of darkened skin, usually in the armpits and neck.</li>
 <br>
 
-<center><h1>When to see a doctor</h1></center>
+<div class="center"><h1>When to see a doctor</h1></div>
 See your health care provider if you notice any symptoms of type 2 diabetes.
 </ul>
 
-<center><h1>Causes</h1></center>
+<div class="center"><h1>Causes</h1></div>
 
 Type 2 diabetes is mainly the result of two problems:
 <ul>
@@ -125,7 +125,7 @@ Exactly why this happens is not known. Being overweight and inactive are key con
 
 
 <br>
-<center><h1>How insulin works</h1></center>
+<div class="center"><h1>How insulin works</h1></div>
 
 Insulin is a hormone that comes from the pancreas — a gland located behind and below the stomach. 
 Insulin controls how the body uses sugar in the following ways:
@@ -157,8 +157,8 @@ Eventually the cells in the pancreas that make insulin become damaged and can't 
 
 
 
-
-<center><h1>Risk Factors</h1></center>
+<!--Usage of unordered list for Diabetes explanation-->
+<div class="center"><h1>Risk Factors</h1></div>
 
 Factors that may increase the risk of type 2 diabetes include:
 <ul>
@@ -184,8 +184,8 @@ Factors that may increase the risk of type 2 diabetes include:
 		excess hair growth and obesity — increases the risk of diabetes.</li>
 </ul>
 
-
-<center><h1>Complications</h1></center>
+<!--Usage of unordered list for Diabetes explanation-->
+<div class="center"><h1>Complications</h1></div>
 
 Type 2 diabetes affects many major organs, including the heart, blood vessels, nerves, eyes and kidneys.
 Also, factors that increase the risk of diabetes are risk factors for other serious diseases. 
@@ -224,11 +224,11 @@ Managing diabetes and controlling blood sugar can lower the risk for these compl
 
 	<li>Poor control of blood sugar is linked to a more rapid decline in memory and other thinking skills.</li>
 
-<center><h1>Prevention</h1></center>
+<div class="center"><h1>Prevention</h1></div>
 
 Healthy lifestyle choices can help prevent type 2 diabetes. If you've received a diagnosis of prediabetes, lifestyle changes may 
 slow or stop the progression to diabetes.
-
+<!--Usage of unordered list for Diabetes explanation-->
 A healthy lifestyle includes:<br>
 <ul>
 	<li>Eating healthy foods. Choose foods lower in fat and calories and higher in fiber. Focus on fruits, vegetables and whole grains.</li>
@@ -245,10 +245,63 @@ A healthy lifestyle includes:<br>
 </ul>
 
 	For people with prediabetes, metformin (Fortamet, Glumetza, others), a diabetes medication, may be prescribed to reduce the risk
-	of type 2 diabetes. This is usually prescribed for older adults who are obese and unable to lower blood sugar levels with lifestyle changes.
+	of type 2 diabetes. This is usually prescribed for older adults who are obese and unable to lower blood sugar levels with lifestyle changes. 
+	<b><i>Below is a Blood Glucose Chart for reference:</i></b>
+<br><br><br><br>
 
+<!--Blood Glucose Chart. CSS text-align wouldn't center this, so I used <center> still didn't work. Although it did work at first very weird-->
+<center>
+<div class="center">
+	<table>
+		<thead class='thead'>
+			<tr>
+				<th colspan='4' id="thhead">Blood Glucose Chart</th>
+			</tr>
+	
+		</thead>
+		<tbody>
+			<tr>
+				<th id='thone'>mg/dL</th>
+				<th id='thtwo'>Fasting</th>
+				<th id='ththree'>After Eating</th>
+				<th id='thfour'>2-3 Hours After Eating</th>
+				
+			</tr>
+	
+			<tr>
+				<th id='thone'>Normal</th>
+				<th id='thtwo'>80-100</th>
+				<th id='ththree'>170-200</th>
+				<th id='thfour'>120-140</th>
+			</tr>
+	
+			<tr>
+				<th id='thone'>Impaired Glucose</th>
+				<th id='thtwo'>101-125</th>
+				<th id='ththree'>190-230</th>
+				<th id='thfour'>140-160</th>
+				
+			</tr>
+	
+			<tr>
+				<th id='thone'>Diabetic</th>
+				<th id='thtwo'>126+</th>
+				<th id='ththree'>220-300</th>
+				<th id='thfour'>200+</th>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</center>	
+<br><br><br><br>
+<div class="center">
 
-
+	<a href="https://click.linksynergy.com/fs-bin/click?id=P1KjR84HuTk&offerid=1128880.9&subid=0&type=4"><IMG border="0"  
+		 alt="Sports&FitnessExchange" 
+		src="https://ad.linksynergy.com/fs-bin/show?id=P1KjR84HuTk&bids=1128880.9&subid=0&type=4&gridnum=1"><br>Ad Fitness <h3>Click Here<h3></h3></a>
+	
+	<br>
+</div>	
 
 </body>
 
