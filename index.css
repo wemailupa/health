@@ -339,6 +339,19 @@ figure:hover .overlay{
 	background-image: url('type2.jpg');
 	
 }
+#image11 {
+	border-radius: 1000px;
+	width: 100px;
+	height: 100px;
+	text-align: right;
+}
+#image12{
+	float: right;
+
+	border-radius: 1000px;
+	width:100px;
+	height:100px;
+}
 /*used to cent some items but didn't panout*/
 .center{
 	text-align: center;
